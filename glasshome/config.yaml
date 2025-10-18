@@ -21,4 +21,4 @@ options:
   log_level: info
 schema:
   log_level: list(debug|info|warning|error)
-image: "ghcr.io/IhsenBouallegue/{arch}-glasshome"
+image: "ghcr.io/ihsenbouallegue/{arch}-glasshome"
