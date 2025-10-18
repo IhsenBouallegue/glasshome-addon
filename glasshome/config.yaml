@@ -1,0 +1,24 @@
+name: "GlassHome Dashboard"
+version: "0.1.0"
+slug: glasshome
+description: "Modern, customizable dashboard for Home Assistant with drag-and-drop widgets"
+url: "https://github.com/IhsenBouallegue/glasshome-monorepo"
+arch:
+  - amd64
+  - aarch64
+init: false
+ingress: false
+panel_icon: mdi:view-dashboard
+startup: application
+boot: auto
+ports:
+  3123/tcp: 3123
+ports_description:
+  3123/tcp: "Web interface"
+map:
+  - data:rw
+options:
+  log_level: info
+schema:
+  log_level: list(debug|info|warning|error)
+image: "ghcr.io/IhsenBouallegue/{arch}-glasshome"
