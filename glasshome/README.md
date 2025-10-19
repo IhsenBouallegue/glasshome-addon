@@ -2,6 +2,9 @@
 
 Modern, customizable dashboard for Home Assistant with beautiful glassmorphic design.
 
+## Disclaimer:
+This is a BETA version. It might not work if you have a very custom setup. I don't expect it to crush and burn, as I tested thoroughly on my setup, but please proceed with caution and backup your Home Assistant!
+
 ## Installation
 
 1. Add this repository to your Home Assistant:
@@ -13,13 +16,9 @@ Modern, customizable dashboard for Home Assistant with beautiful glassmorphic de
 
 3. Start the add-on
 
-4. Access the dashboard at: `http://homeassistant.local:3123`
-
-5. On first launch, HaKit will prompt you to enter your Home Assistant URL and complete authentication
-
 ## Features
 
-- 🎨 Beautiful glassmorphic design with dark mode
+- 🎨 Beautiful glassmorphic design with dark mode 
 - 🖱️ Drag-and-drop widget customization
 - 🏠 Area-based organization
 - 📊 Multiple widget types:
@@ -31,7 +30,7 @@ Modern, customizable dashboard for Home Assistant with beautiful glassmorphic de
   - Scenes
   - Battery monitoring
 - 💾 Persistent dashboard configurations
-- 🔐 Secure authentication via HaKit
+- 🔐 Secure authentication
 
 ## Accessing the Dashboard
 
@@ -45,4 +44,4 @@ Currently no configuration options needed - works out of the box!
 
 ## Support
 
-For issues or feature requests, visit: https://github.com/IhsenBouallegue/glasshome-monorepo/issues
+For issues or feature requests, visit the [discord channel](https://discord.com/channels/1428131437265289248/1428167573094010930)
