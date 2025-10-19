@@ -1,0 +1,30 @@
+# If you are running Home Assistant as a container and can't run GlassHome as an add-on, you can use this docker-compose.yaml file.
+services:
+  glasshome:
+    # For AMD64/x86_64 systems (Intel/AMD processors)
+    image: ghcr.io/ihsenbouallegue/amd64-glasshome:0.1.0
+    # For ARM64/aarch64 systems (Raspberry Pi 4, Apple Silicon, ARM servers)
+    # image: ghcr.io/ihsenbouallegue/aarch64-glasshome:0.1.0
+    container_name: glasshome-dashboard
+    restart: unless-stopped
+    ports:
+      - "3123:3123"
+    volumes:
+      - glasshome_data:/data
+    environment:
+      - NODE_ENV=production
+      - PORT=3123
+      - DATA_DIR=/data
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:3123/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.docker.compose.project=glasshome"
+      - "com.docker.compose.service=glasshome"
+
+volumes:
+  glasshome_data:
+    driver: local
