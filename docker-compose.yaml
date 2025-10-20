@@ -2,9 +2,9 @@
 services:
   glasshome:
     # For AMD64/x86_64 systems (Intel/AMD processors)
-    image: ghcr.io/ihsenbouallegue/amd64-glasshome:0.1.0
+    image: ghcr.io/ihsenbouallegue/amd64-glasshome:0.1.1
     # For ARM64/aarch64 systems (Raspberry Pi 4, Apple Silicon, ARM servers)
-    # image: ghcr.io/ihsenbouallegue/aarch64-glasshome:0.1.0
+    # image: ghcr.io/ihsenbouallegue/aarch64-glasshome:0.1.1
     container_name: glasshome-dashboard
     restart: unless-stopped
     ports:
