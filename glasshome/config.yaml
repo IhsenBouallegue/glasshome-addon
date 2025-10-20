@@ -2,7 +2,7 @@ name: "GlassHome Dashboard"
 version: "0.1.1"
 slug: glasshome
 description: "Modern, customizable dashboard for Home Assistant with drag-and-drop widgets"
-url: "https://github.com/IhsenBouallegue/glasshome-monorepo"
+url: "https://github.com/IhsenBouallegue/glasshome-addon"
 arch:
   - amd64
   - aarch64
