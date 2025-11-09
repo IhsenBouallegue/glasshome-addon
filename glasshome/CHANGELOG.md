@@ -3,7 +3,7 @@
 ## 0.3.0
 
 ### Features
-- Switch to @glassHome/sync-layer, a new library to interface with Home Assistant
+- Build and integrate @glasshome/sync-layer, a new library to interface and sync with Home Assistant
 - Add a debug dialog to peak into the sync-layer and HA communication (enabled in the settings)
 - Add a Home Assistant button that let's you jump to HA (enabled in the settings)
 - Add the button widget
