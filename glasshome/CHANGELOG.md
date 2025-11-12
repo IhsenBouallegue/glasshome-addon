@@ -3,7 +3,7 @@
 ## 0.3.2
 
 ### Bug Fixes
-- Fix a bug no entities were being detected in the area widget dialogs, preventing creation or editing 
+- Fix a bug where no entities were being detected in the area widget dialogs, preventing creation or editing 
 
 ## 0.3.1
 
