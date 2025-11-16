@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1
+
+### Bug Fixes
+- Fix the issue where the app does not load at all on startup
+
 ## 0.4.0
 
 ### Features
