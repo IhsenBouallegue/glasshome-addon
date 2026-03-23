@@ -16,6 +16,8 @@ ports:
   3124/tcp: 3124
 ports_description:
   3124/tcp: "Web interface (Edge)"
+environment:
+  PORT: "3124"
 map:
   - data:rw
 options:
