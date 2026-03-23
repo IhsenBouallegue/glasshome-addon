@@ -10,7 +10,7 @@ This is a BETA version. It might not work if you have a very custom setup. I don
 1. Add this repository to your Home Assistant:
    - Settings → Add-ons → Add-on Store
    - Click ⋮ (menu) → Repositories
-   - Add: `https://github.com/glasshome-labs/glasshome-addon`
+   - Add: `https://github.com/glasshome/glasshome-addon`
 
 2. Install "GlassHome Dashboard" from the add-on store
 
