@@ -1,5 +1,5 @@
 name: "GlassHome Dashboard"
-version: "0.7.0"
+version: "0.8.0-beta.9"
 slug: glasshome
 description: "Modern, customizable dashboard for Home Assistant with drag-and-drop widgets"
 url: "https://github.com/glasshome/glasshome-addon"
