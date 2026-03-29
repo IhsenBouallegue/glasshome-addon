@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0-beta.8
+
+- Fixed database migration not completing (missing statement breakpoints in SQLite)
+- Fixed HA connection lost after update (auto-create anonymous session for unauthenticated requests)
+- Fixed widget install/uninstall ON CONFLICT error
+
 ## 0.8.0-beta.7
 
 - Upgraded to Vite 8 (Rolldown bundler) — ~3x faster builds
