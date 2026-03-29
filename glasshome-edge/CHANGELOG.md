@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0-beta.6
+
+- Fixed widgets failing to load in production (shared dependency exports were tree-shaken from vendor chunks)
+
 ## 0.8.0-beta.4
 
 - Redesigned setup wizard: single-screen flow replaces 5-step wizard
