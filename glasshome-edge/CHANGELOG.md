@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.0-beta.7
+
+- Upgraded to Vite 8 (Rolldown bundler) — ~3x faster builds
+- Migrated from TanStack Router to @solidjs/router
+- Fixed vendor chunk generation — pre-built separately to eliminate bundler-dependent fragility
+- Removed per-user widget installs — installed widgets are now instance-wide
+- Fixed migration journal timestamps causing skipped migrations
+- Fixed widget CLI registration failing with FK constraint errors
+- Replaced lucide-solid with iconify-icon for dev server compatibility
+
 ## 0.8.0-beta.6
 
 - Fixed widgets failing to load in production (shared dependency exports were tree-shaken from vendor chunks)
