@@ -12,7 +12,6 @@ services:
     volumes:
       - glasshome_data:/data
     environment:
-      - NODE_ENV=production
       - PORT=3123
       - DATA_DIR=/data
     healthcheck:
